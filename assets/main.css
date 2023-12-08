@@ -163,6 +163,9 @@ body {
 .container {
 	width: 90% !important;
 }
+#myBtn{
+	display: block;
+}
 }
 /* Grid */
 
