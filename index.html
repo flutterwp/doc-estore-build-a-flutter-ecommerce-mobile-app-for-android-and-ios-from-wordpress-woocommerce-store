@@ -121,7 +121,13 @@
 					<li><a href="#server" style="color: #0F97F6; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
 							id="open-link">How to Change Base URL</a></li>
 					<li><a href="#apipar" style="color: #0F97F6; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
-							id="open-link">How to Change Change Api Parameter</a></li>
+							id="open-link">How to Change Api Parameter</a></li>
+					<li><a href="#string" style="color: #0F97F6; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+							id="open-link">How to Change language String value</a></li>
+					<li><a href="#remove" style="color: #0F97F6; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+							id="open-link">How to Add language</a></li>
+					<li><a href="#dark" style="color: #0F97F6; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+							id="open-link">how to remove dark theme</a></li>
 					<li><a href="#slider" style="color: #0F97F6; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
 							id="open-link">How to add slider and section </a></li>
 
@@ -265,9 +271,10 @@
 								<h2>How to setup Flutter </h2>
 								<ol>
 									<ul style="list-style-type:disc; font-weight: 700; padding: 0px;">
-									<li style="font-weight: 700; font-weight: 700;
+										<li style="font-weight: 700; font-weight: 700;
 									color: #e9a800;
-									font-size: 16px; margin-bottom: 14px;">If you want to install Estore application so first of fall you have required flutter version 3.13.4</li>	
+									font-size: 16px; margin-bottom: 14px;">If you want to install Estore application so first of fall you have
+											required flutter version 3.13.4</li>
 										<li><a href="https://www.youtube.com/watch?v=hfz_AraTk_k" target="_blank">Please
 												prefer video tutorials how to install Flutter </a></li>
 
@@ -473,7 +480,117 @@
 							</div>
 						</section>
 
-						<!-- slider -->
+						
+
+						<!-- sever value -->
+
+
+						<section id="server">
+							<div class="container"> <br>
+								<h2>How to Change Base url</h2>
+								<ol>
+									<li>Go to lib > data_provider > api_constants.dart here you have to change your API
+										Base url.
+
+									</li>
+
+									<img src="assets/server.png" alt="estor">
+								</ol>
+
+							</div>
+							<div class="section_bdr"></div>
+						</section>
+
+						<!-- change api prameter -->
+						<section id="apipar">
+							<div class="container"> <br>
+								<h2>How to Change Api Parameter</h2>
+								<ol>
+									<li>You can change or add api parameter from lib > data_provider >
+										api_constants.dart here all
+										list of api and api paramater is listed that is used in app.
+
+									</li>
+									<br>
+									<img src="assets/apiprameter.png" alt="estor">
+								</ol>
+
+							</div>
+							<div class="section_bdr"></div>
+						</section>
+
+						<!-- string vlaue -->
+						<section id="string">
+							<div class="container"> <br>
+								<h2>How to Change language String value</h2>
+								<ol>
+									<li>Go to assets > resources > go to your language code.here you can change any
+										string as you want
+
+									</li>
+									<br>
+									<img src="assets/langauge.png" alt="estor">
+								</ol>
+
+							</div>
+							<div class="section_bdr"></div>
+						</section>
+
+
+						<!-- add langauge -->
+
+						<section id="remove">
+							<div class="container"> <br>
+								<h2>How to Add language</h2>
+								<ol>
+									<li>To Add New Languge</li>
+									<p>If you want to Add new language then copy one json file from resources folder and
+										add it to resources folder then rename it to language code - country code of
+										your new language
+									</p>
+									<p>now open that json file and change value of string to your language string.
+										remember here you need to add all string in file if any one string is missing in
+										any file then when you change that language then it will give you error. so add
+										all string in all json file.</p>
+									<br>
+									<img src="assets/langauge.png" alt="estor">
+									<li>Go to lib > main.dart > add to new langauge.</li>
+									<img src="assets/remove.png" alt="estor">
+
+									<!-- <img src="assets/lang1 (1).png"> -->
+									<br><br>
+									<p>.if you change languge code (LANGAUGE_CODE1) and country code (COUNTRY_CODE1)
+										please follow tha next step</p>
+
+									<img src="assets/countrycode.png">
+
+									<!-- <img src="assets/lang1 (2).png"> -->
+								</ol>
+								<div class="section_bdr"></div>
+							</div>
+
+						</section>
+
+						<!-- remove dark theme -->
+
+						<section id="dark">
+							<div class="container"> <br>
+								<h2>How to remove dark theme</h2>
+								<ol>
+									<li>Go to lib > screen > profile > profile.dart > you can remove dark theme
+
+									</li>
+
+									<img src="assets/darktheme.png" alt="estor">
+									<li>Go to lib > main.dart > you can remove dark theme</li>
+									<img src="assets/themedark.png">
+								</ol>
+
+							</div>
+							<div class="section_bdr"></div>
+						</section>
+
+                        <!-- slider -->
 
 						<section id="slider">
 							<div class="container"> <br>
@@ -496,91 +613,6 @@
 								<div class="section_bdr"></div>
 							</div>
 						</section>
-
-						<!-- sever value -->
-
-
-						<section id="server">
-							<div class="container"> <br>
-								<h2>How to Change Base url</h2>
-								<ol>
-									<li>Go to lib > data_provider > api_constants.dart here you have to change your API
-										Base url.
-
-									</li>
-
-									<img src="assets/server.png" alt="estor">
-								</ol>
-
-							</div>
-
-						</section>
-
-						<!-- change api prameter -->
-						<section id="apipar">
-							<div class="container"> <br>
-								<h2>How to Change Api Parameter</h2>
-								<ol>
-									<li>You can change or add api parameter from lib > data_provider >
-										api_constants.dart here all
-										list of api and api paramater is listed that is used in app.
-
-									</li>
-									<br>
-									<img src="assets/apiprameter.png" alt="estor">
-								</ol>
-
-							</div>
-
-						</section>
-
-
-						<!-- add langauge -->
-
-						<!-- <section id="addlang">
-								<div class="container"> <br>
-									<h2>How to Add/Remove language</h2>
-									<ol>
-										<li>To Add New Languge</li>
-										<p>If you want to Add new language then copy one json file from language folder and
-											add it to languge folder then rename it to language code of your new language
-										</p>
-										<p>now open that json file and change value of string to your language string.
-											remember here you need to add all string in file if any one string is missing in
-											any file then when you change that language then it will give you error. so add
-											all string in all json file.</p>
-										<br>
-										<img src="assets/lan2.png" alt="estor">
-										<br><br>
-										<p>now search in whole project "en", by pressing ctrl shift f. now where you see
-											languge code in list add your new lanaguge code there.</p>
-										<br>
-										<img src="assets/lang1 (1).png">
-										<br><br>
-										<p>now go to MyProfile.dart file inside that go to initState method inside that in
-											languageList add your new languge string name here as shown in below image.now
-											add this new language string to all json file here you have to use same string
-											name as you have specified in language list in left side.in right side give
-											language name</p>
-										<br>
-										<img src="assets/lang2.png">
-										<br><br>
-										<p>Add your language name in each and every language file</p>
-										<br>
-										<img src="assets/lang3.png">
-										<br><br>
-										<li>To remove language</li>
-										<p>now search in whole project "en", by pressing ctrl shift f. now where you see
-											languge code in list remove lanaguge code that you don't want.</p>
-										<br>
-										<img src="assets/lang1 (2).png">
-									</ol>
-									<div class="section_bdr"></div>
-								</div>
-	
-							</section>
-	 -->
-
 						<!-- default langauge app -->
 						<!-- <section id="defult">
 								<div class="container"> <br>
@@ -668,7 +700,7 @@
 
 						<!-- backend -->
 						<section id="backend">
-							<div class="container"> <br>
+							<!-- <div class="container"> <br>
 								<h2>How to setup Backend</h2>
 								<ol>
 									<li>Login to your WordPress Dashboard.</li>
@@ -681,8 +713,74 @@
 									<li>At this point, the plugin is installed. You can click on Activate Plugin link to
 										work with it.</li>
 								</ol>
-								<div class="section_bdr"></div>
+								
+							</div> -->
+
+							<!-- how to setup jwt auth -->
+
+							<div class="container"> <br>
+								<h2>How to setup jwt authentication Plugin</h2>
+								<ol>
+									<li>first You click add new plugin</li>
+									<li>you search jwt authentication Plugin</li>
+									<li>Click on Install and after active plugin</li>
+									<img src="assets/jwt.png" alt="estore">
+									<li>Put on tha code wp-config file ('JWT_AUTH_SECRET_KEY', 'your-top-secret-key');
+									</li>
+									<img src="assets/jwtsc.png" alt="estore">
+									<li>Put on tha code htaccess file RewriteCond %{HTTP:Authorization} ^(.*)
+										RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]</li>
+									<img src="assets/htacces.png" alt="estore">
+								</ol>
+
 							</div>
+							<div class="section_bdr"></div>
+							<div class="container"> <br>
+								<h2>How to setup cocart plugin </h2>
+								<ol>
+									<li>first You click add new plugin</li>
+									<li>you search cocart Plugin</li>
+									<li>Click on Install and after active plugin </li>
+									<img src="assets/cocart.png" alt="estore">
+
+								</ol>
+
+							</div>
+
+							<div class="section_bdr"></div>
+							<div class="container"> <br>
+								<h2>How to setup features Product </h2>
+								<ol>
+									<li>first step You click product menu </li>
+									<li>Second step all tha sub menu open after click all product</li>
+									<img src="assets/product.png" alt="estore">
+									<li>You have to click on the star icon of any product you want to feature.</li>
+
+									<img src="assets/fetures.png" alt="estore">
+
+								</ol>
+
+							</div>
+							<div class="section_bdr"></div>
+
+
+							<div class="container"> <br>
+								<h2>How to setup eStore plugin </h2>
+								<ol>
+									<li>Click on Upload Plugin button found on top left corner of page.</li>
+									<li>Select the .zip file of estore plugin</li>
+									<li>Click install button</li>
+									<img src="assets/estoreplugin.png">
+									<li>If you want to changes in application you can use estore setting.</li>
+									<li>Suppose You want to put the application into maintenance mode. </li>
+									<li>You do click checkbox and after click submit button Your application going
+										maintenance mode. </li>
+									<img src="assets/estoresetting.png">
+								</ol>
+							</div>
+
+							<!-- support -->
+
 						</section>
 						<section id="support">
 							<div class="container"> <br>
@@ -697,7 +795,7 @@
 								<div class="section_bdr"></div>
 							</div>
 						</section>
-
+						<!-- rating -->
 						<section id="rating">
 							<div class="container"> <br>
 								<h2>Rating </h2>
